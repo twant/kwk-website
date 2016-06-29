@@ -1,31 +1,27 @@
-/*body {
-  background-image: url(images/floral.jpg);
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/games/gam-4/gam357.cur), progress !important;} /* End http://www.cursors-4u.com */
+
+body {
+  background-image: url(images/floral2.png);
+}
+
+/*.background {
+    background-image: url(images/floral2.png);
 }*/
-
-.background {
-    position: relative;
-    overflow: hidden;
-}
-
-.background img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.6;
-}
 
 h1 {
   font-family: bromello; font-size: 85pt; text-align: center; color: #306C84;
 }
 
 h2 {
-  font-family: bebas; text-align: center; font-size: 50pt;
+  font-family: bebas; text-align: center; font-size: 40pt;
+}
+
+h3 {
+  font-family: oswald; text-align: center; font-size: 40pt;
 }
 
 .button {
-    background-color: lavender;
+    background-color: white;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -34,4 +30,94 @@ h2 {
     display: inline-block;
     font-size: 16px;
     font-family: bebas;
+    width: 49.75%;
 }
+
+.button2 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: bebas;
+    width: 33%;
+}
+
+.button3 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: bebas;
+    width: 100%;
+}
+
+#welcome {
+  font-family: bebas; font-size: 85pt; text-align: center; color: #306C84;
+}
+
+.experiences{
+  font-family: bebas; font-size: 24pt; text-align: center; color: #306C84; text-decoration: none;
+}
+
+.kookies {
+  display: inline-block;
+  width: 20%;
+  background: lavender;
+  vertical-align: top;
+}
+
+.kookie-cards img {
+  width: 100%
+}
+
+.kookie-cards{
+  text-align: center;
+}
+
+/*IMG.us {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }*/
+
+  p {
+    word-wrap: normal;
+    font-family: Oswald; font-size: 18pt;
+  }
+
+  .socialmedia:link {
+    font-family: Oswald; font-size: 18pt; color: #306C84; text-decoration: none;
+  }
+
+  .socialmedia:visited {
+    font-family: Oswald; font-size: 18pt; color: #306C84; text-decoration: none;
+  }
+
+  .socialmedia:hover {
+    font-family: Oswald; font-size: 18pt; color: navy; text-decoration: underline;
+    -webkit-transition: all 3s ease;
+  	-moz-transition: all 3s ease;
+  	-o-transition: all 3s ease;
+  }
+
+  /*.3smart:{
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+  }
+
+  .3smart:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100);
+      -webkit-transition: all 3s ease;
+  	-moz-transition: all 3s ease;
+  	-o-transition: all 3s ease;
+  }*/
